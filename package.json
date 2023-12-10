@@ -1,0 +1,22 @@
+{
+  "name": "rescript-graphql-yoga",
+  "version": "0.1.0",
+  "description": "Bindings for graphql-yoga library",
+  "main": "./src/Yoga.res",
+  "keywords": [
+    "rescript",
+    "yoga",
+    "graphql",
+    "graphql-yoga"
+  ],
+  "scripts": {
+    "dev": "rescript build -w",
+    "build": "rescript build"
+  },
+  "author": "mishaszu",
+  "license": "ISC",
+  "peerDependencies": {
+    "graphql-yoga": "^5.0.2",
+    "rescript": "^10.1.4"
+  }
+}

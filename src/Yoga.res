@@ -2,7 +2,7 @@ type t = Express.Middleware.t
 type graphiqlMiddleware
 
 module Schema = {
-  type t
+  type t = Graphql.Schema.t
 }
 
 @module("graphql-yoga") external createYoga: unit => t = "createYoga"

@@ -11,12 +11,16 @@
   ],
   "scripts": {
     "dev": "rescript build -w",
-    "build": "rescript build"
+    "build": "rescript build",
+    "clean": "rescript clean"
   },
   "author": "mishaszu",
   "license": "ISC",
   "peerDependencies": {
     "graphql-yoga": "^5.0.2",
     "rescript": "^10.1.4"
+  },
+  "dependencies": {
+    "rescript-graphqljs": "file:../rescript-graphqljs"
   }
 }

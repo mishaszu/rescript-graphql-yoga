@@ -12,7 +12,5 @@
     "in-source": true
   },
   "suffix": ".bs.js",
-  "bs-dependencies": [
-    "rescript-expressjs"
-  ]
+  "bs-dependencies": ["rescript-expressjs", "rescript-graphqljs"]
 }

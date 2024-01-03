@@ -18,10 +18,9 @@
   "license": "ISC",
   "peerDependencies": {
     "graphql-yoga": "^5.0.2",
-    "rescript": "^10.1.4"
+    "rescript": "^11.0.0-rc.8"
   },
   "dependencies": {
-    "rescript": "^11.0.0-rc.8",
-    "rescript-graphqljs": "file:../rescript-graphqljs"
+    "rescript-graphqljs": "0.1.5"
   }
 }

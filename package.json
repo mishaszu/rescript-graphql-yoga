@@ -21,6 +21,6 @@
     "rescript": "^11.0.0-rc.8"
   },
   "dependencies": {
-    "rescript-graphqljs": "0.1.5"
+    "rescript-graphqljs": "0.1.6"
   }
 }

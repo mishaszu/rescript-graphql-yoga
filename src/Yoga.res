@@ -7,12 +7,13 @@ module Schema = {
 
 @module("graphql-yoga") external createYoga: unit => t = "createYoga"
 
-type configuration = {
+type configuration<'a, 'b> = {
   schema: Schema.t,
-  renderGraphiQL: graphiqlMiddleware,
+  renderGraphiQL: Js.undefined<graphiqlMiddleware>,
+  context: Js.undefined<'a => promise<'b>>,
 }
 
-@module("graphql-yoga") external createYogaWithSchema: configuration => t = "createYoga"
+@module("graphql-yoga") external createYogaWithSchema: configuration<'a, 'b> => t = "createYoga"
 @module("@graphql-yoga/render-graphiql")
 external renderGraphiql: graphiqlMiddleware = "renderGraphiql"
 
